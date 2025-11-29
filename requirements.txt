@@ -1,0 +1,6 @@
+rich
+textual
+playwright
+requests
+pyfiglet
+setuptools

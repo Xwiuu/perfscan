@@ -1,0 +1,106 @@
+/* style.tcss */
+
+Screen {
+    background: #0d1117;
+    color: #00FF00;
+}
+
+RetroTitle {
+    height: auto;
+    margin-bottom: 1;
+}
+
+#dashboard_container {
+    height: 1fr;
+    border: double #00FF00;
+    padding: 1;
+    background: #161b22;
+}
+
+#left_panel {
+    width: 40%;
+    height: 100%;
+    border-right: dashed #00FF00;
+    padding-right: 1;
+}
+
+#status_log {
+    height: 1fr;
+    background: #0d1117;
+    border: solid #00FF00;
+    scrollbar-color: #00FF00;
+}
+
+.panel_header {
+    text-align: center;
+    background: #00FF00;
+    color: black;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#right_panel {
+    width: 60%;
+    height: 100%;
+    padding-left: 2;
+}
+
+ProgressBar {
+    margin-bottom: 1;
+    color: #00FF00; 
+    background: #222222;
+}
+
+ProgressBar > .bar--complete {
+    color: #00FF00;
+}
+
+Label {
+    margin-top: 1;
+    text-style: bold;
+}
+
+#ai_spinners_area {
+    height: auto;
+    border: solid #00FFFF;
+    padding: 1;
+    margin-top: 2;
+    margin-bottom: 1;
+    background: #0d1117;
+    align: center middle;
+}
+
+LoadingIndicator {
+    color: #FF00FF;
+    height: 3;
+}
+
+#control_footer {
+    height: auto;
+    dock: bottom;
+    margin-top: 1;
+    border-top: double #00FF00;
+    padding: 1;
+    background: #161b22;
+}
+
+Input {
+    width: 70%;
+    border: solid #00FF00;
+    background: #0d1117;
+    color: white;
+}
+
+Button {
+    width: 30%;
+    margin-left: 1;
+    background: #008800;
+    color: white;
+    border: none;
+    text-style: bold;
+}
+
+Button:hover {
+    background: #00FF00;
+    color: black;
+}

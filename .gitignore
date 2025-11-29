@@ -1,0 +1,17 @@
+# Ambientes Virtuais
+venv/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Relatórios gerados (não poluir o repo)
+reports/
+temp_report.json
+
+# Builds e Distribuição
+dist/
+build/
+*.spec
+*.egg-info/
