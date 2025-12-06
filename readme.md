@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/image_7b0ffd.png" alt="PerfScan Banner" width="100%" />
-
 # ⚡ P E R F S C A N — V 6 . 0
 
 **CYBERSECURITY AUDIT • NEURAL NETWORK POWERED • GOD MODE UI**
