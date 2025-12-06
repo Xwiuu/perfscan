@@ -1,6 +1,7 @@
 rich
-textual
 playwright
 requests
 pyfiglet
 setuptools
+dnspython
+markdown-it-py

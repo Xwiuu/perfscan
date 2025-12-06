@@ -1,17 +1,30 @@
-# Ambientes Virtuais
+# Python & Venv
 venv/
-.env
-
-# Python Cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Relatórios gerados (não poluir o repo)
+# Relatórios e Logs
 reports/
 temp_report.json
+*.log
 
-# Builds e Distribuição
-dist/
-build/
-*.spec
-*.egg-info/
+# VS Code
+.vscode/
